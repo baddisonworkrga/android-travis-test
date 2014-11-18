@@ -19,7 +19,7 @@ before_script:
 
 script:
  	#   - gradle assembleDebug --stacktrace
- 	- ./gradlew assembleDebug --stacktrace
+ 	- gradle assembleDebug --stacktrace
 
 after_success:
-	- puts "\nDone!"
+	#- puts "\nDone!"
