@@ -18,8 +18,8 @@ before_script:
     - cd ActionBarCompat-ListPopupMenu
 
 script:
- 	#   - gradle assembleDebug --stacktrace
- 	- gradle assembleDebug --stacktrace
+    #   - gradle assembleDebug --stacktrace
+    - gradle assembleDebug --stacktrace
 
-after_success:
-	#- puts "\nDone!"
+#after_success:
+    #- puts "\nDone!"
